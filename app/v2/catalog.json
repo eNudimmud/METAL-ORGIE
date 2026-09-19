@@ -1,0 +1,474 @@
+[
+  {
+    "id": "terrasse-surelevee",
+    "title": "Terrasse surélevée",
+    "category": "architecture",
+    "src": "/images/portfolio/architecture-terrasse.webp",
+    "alt": "Terrasse surélevée avec garde-corps métalliques",
+    "ratio": "16 / 9",
+    "position": "center 43%",
+    "width": 1536,
+    "height": 864,
+    "file": "architecture-terrasse",
+    "widths": [
+      480,
+      960
+    ],
+    "role": "FEATURE"
+  },
+  {
+    "id": "habillage-cuisine",
+    "title": "Habillage de cuisine",
+    "category": "interieur",
+    "src": "/images/portfolio/interieur-cuisine-inox.webp",
+    "alt": "Habillage métallique ajusté dans une cuisine",
+    "ratio": "4 / 3",
+    "position": "48% center",
+    "width": 1536,
+    "height": 1153,
+    "file": "interieur-cuisine-inox",
+    "widths": [
+      480,
+      960
+    ],
+    "role": "PROJECT"
+  },
+  {
+    "id": "brasero-sur-mesure",
+    "title": "Brasero sur mesure",
+    "category": "creations",
+    "src": "/images/portfolio/creation-brasero.webp",
+    "alt": "Brasero circulaire en métal sur son pied",
+    "ratio": "3 / 4",
+    "width": 1152,
+    "height": 1536,
+    "file": "creation-brasero",
+    "widths": [
+      480,
+      960
+    ],
+    "role": "FEATURE"
+  },
+  {
+    "id": "ossature-en-construction",
+    "title": "L’ossature en construction",
+    "category": "architecture",
+    "src": "/images/portfolio/architecture-ossature.webp",
+    "alt": "Ossature métallique en cours de construction",
+    "ratio": "4 / 3",
+    "width": 1536,
+    "height": 1153,
+    "file": "architecture-ossature",
+    "widths": [
+      480,
+      960
+    ],
+    "role": "PROJECT"
+  },
+  {
+    "id": "voilier-manutention",
+    "title": "Voilier — changement d’échelle",
+    "category": "creations",
+    "src": "/images/portfolio/creation-voilier-manutention.webp",
+    "alt": "Grande création métallique en forme de voilier déplacée devant l’atelier",
+    "ratio": "9 / 16",
+    "width": 864,
+    "height": 1536,
+    "file": "creation-voilier-manutention",
+    "widths": [
+      480,
+      864
+    ],
+    "role": "PROJECT"
+  },
+  {
+    "id": "bibliotheque-metal-bois",
+    "title": "Bibliothèque métal & bois",
+    "category": "interieur",
+    "src": "/images/portfolio/interieur-bibliotheque.webp",
+    "alt": "Bibliothèque avec structure métallique noire et tablettes en bois",
+    "ratio": "16 / 9",
+    "position": "center 45%",
+    "width": 1600,
+    "height": 900,
+    "file": "interieur-bibliotheque",
+    "widths": [
+      480,
+      960
+    ],
+    "role": "FEATURE"
+  },
+  {
+    "id": "vador-piece-achevee",
+    "title": "Dark Vador — pièce achevée",
+    "category": "creations",
+    "src": "/images/portfolio/creation-vador-final.webp",
+    "alt": "Création métallique terminée inspirée du casque de Dark Vador",
+    "ratio": "1 / 1",
+    "position": "center 42%",
+    "width": 1487,
+    "height": 1536,
+    "file": "creation-vador-final",
+    "widths": [
+      480,
+      960
+    ],
+    "role": "FEATURE"
+  },
+  {
+    "id": "escalier-exterieur",
+    "title": "Escalier extérieur",
+    "category": "architecture",
+    "src": "/images/portfolio/architecture-escalier-exterieur.webp",
+    "alt": "Escalier extérieur et palier en construction métallique",
+    "ratio": "4 / 3",
+    "width": 1536,
+    "height": 1157,
+    "file": "architecture-escalier-exterieur",
+    "widths": [
+      480,
+      960
+    ],
+    "role": "PROJECT"
+  },
+  {
+    "id": "finition-angle",
+    "title": "Finition d’angle",
+    "category": "interieur",
+    "src": "/images/portfolio/interieur-finition-inox.webp",
+    "alt": "Gros plan sur une finition métallique brossée dans un angle",
+    "ratio": "4 / 3",
+    "width": 1536,
+    "height": 1153,
+    "file": "interieur-finition-inox",
+    "widths": [
+      480,
+      960,
+      1440
+    ],
+    "role": "HERO"
+  },
+  {
+    "id": "portail-motifs",
+    "title": "Portail à motifs",
+    "category": "architecture",
+    "src": "/images/portfolio/architecture-portail-organique.webp",
+    "alt": "Portail métallique ajouré par des motifs organiques",
+    "ratio": "3 / 4",
+    "width": 1152,
+    "height": 1536,
+    "file": "architecture-portail-organique",
+    "widths": [
+      480,
+      960
+    ],
+    "role": "PROJECT"
+  },
+  {
+    "id": "vador-metal-brut",
+    "title": "Dark Vador — métal brut",
+    "category": "creations",
+    "src": "/images/portfolio/creation-vador-brut.webp",
+    "alt": "Création inspirée de Dark Vador assemblée en métal brut",
+    "ratio": "9 / 16",
+    "position": "center 42%",
+    "width": 864,
+    "height": 1536,
+    "file": "creation-vador-brut",
+    "widths": [
+      480,
+      864
+    ],
+    "role": "PROCESS"
+  },
+  {
+    "id": "cordons-soudure",
+    "title": "Cordons de soudure",
+    "category": "atelier",
+    "src": "/images/portfolio/atelier-soudures.webp",
+    "alt": "Gros plan sur des cordons de soudure réguliers",
+    "ratio": "4 / 3",
+    "width": 1536,
+    "height": 1153,
+    "file": "atelier-soudures",
+    "widths": [
+      480,
+      960
+    ],
+    "role": "DETAIL"
+  },
+  {
+    "id": "structure-caillebotis",
+    "title": "Structure & caillebotis",
+    "category": "architecture",
+    "src": "/images/portfolio/architecture-auvent-caillebotis.webp",
+    "alt": "Structure métallique équipée de caillebotis",
+    "ratio": "9 / 16",
+    "width": 864,
+    "height": 1536,
+    "file": "architecture-auvent-caillebotis",
+    "widths": [
+      480,
+      864
+    ],
+    "role": "PROJECT"
+  },
+  {
+    "id": "panneaux-ajoures",
+    "title": "Panneaux ajourés",
+    "category": "creations",
+    "src": "/images/portfolio/creation-panneaux-ajoures.webp",
+    "alt": "Panneaux métalliques découpés et disposés dans l’atelier",
+    "ratio": "3 / 4",
+    "width": 1152,
+    "height": 1536,
+    "file": "creation-panneaux-ajoures",
+    "widths": [
+      480,
+      960
+    ],
+    "role": "PROCESS"
+  },
+  {
+    "id": "renforcement-interieur",
+    "title": "Renforcement intérieur",
+    "category": "architecture",
+    "src": "/images/portfolio/architecture-renforcement-interieur.webp",
+    "alt": "Poutres métalliques installées dans un bâtiment existant",
+    "ratio": "4 / 3",
+    "width": 1536,
+    "height": 1153,
+    "file": "architecture-renforcement-interieur",
+    "widths": [
+      480,
+      960
+    ],
+    "role": "PROJECT"
+  },
+  {
+    "id": "credence-ajustee",
+    "title": "Crédence ajustée",
+    "category": "interieur",
+    "src": "/images/portfolio/interieur-credence-inox.webp",
+    "alt": "Crédence métallique ajustée autour d’un évier",
+    "ratio": "4 / 3",
+    "width": 1536,
+    "height": 1153,
+    "file": "interieur-credence-inox",
+    "widths": [
+      480,
+      960
+    ],
+    "role": "PROJECT"
+  },
+  {
+    "id": "motifs-animaliers",
+    "title": "Motifs animaliers découpés",
+    "category": "creations",
+    "src": "/images/portfolio/creation-motifs-animaliers.webp",
+    "alt": "Silhouettes animalières découpées dans une feuille de métal",
+    "ratio": "9 / 16",
+    "width": 864,
+    "height": 1536,
+    "file": "creation-motifs-animaliers",
+    "widths": [
+      480,
+      864
+    ],
+    "role": "PROJECT"
+  },
+  {
+    "id": "annexe-chantier",
+    "title": "Annexe en chantier",
+    "category": "architecture",
+    "src": "/images/portfolio/architecture-annexe-chantier.webp",
+    "alt": "Annexe équipée de portes coulissantes métalliques en cours de chantier",
+    "ratio": "3 / 4",
+    "width": 1152,
+    "height": 1536,
+    "file": "architecture-annexe-chantier",
+    "widths": [
+      480,
+      960
+    ],
+    "role": "PROJECT"
+  },
+  {
+    "id": "voilier-metal-brut",
+    "title": "Voilier — métal brut",
+    "category": "creations",
+    "src": "/images/portfolio/creation-voilier-brut.webp",
+    "alt": "Création en forme de voilier dans son état de métal brut",
+    "ratio": "9 / 16",
+    "width": 864,
+    "height": 1536,
+    "file": "creation-voilier-brut",
+    "widths": [
+      480,
+      864
+    ],
+    "role": "PROCESS"
+  },
+  {
+    "id": "garde-corps-jardin",
+    "title": "Garde-corps au jardin",
+    "category": "architecture",
+    "src": "/images/portfolio/architecture-garde-corps-jardin.webp",
+    "alt": "Garde-corps métallique installé le long d’un jardin",
+    "ratio": "4 / 3",
+    "width": 1536,
+    "height": 1153,
+    "file": "architecture-garde-corps-jardin",
+    "widths": [
+      480,
+      960
+    ],
+    "role": "PROJECT"
+  },
+  {
+    "id": "vador-appret",
+    "title": "Dark Vador — apprêt",
+    "category": "creations",
+    "src": "/images/portfolio/creation-vador-appret.webp",
+    "alt": "Création métallique suspendue après application d’un apprêt gris",
+    "ratio": "9 / 16",
+    "position": "center 37%",
+    "width": 864,
+    "height": 1536,
+    "file": "creation-vador-appret",
+    "widths": [
+      480,
+      864
+    ],
+    "role": "PROCESS"
+  },
+  {
+    "id": "portillon-coordonne",
+    "title": "Portillon coordonné",
+    "category": "architecture",
+    "src": "/images/portfolio/architecture-portillon-organique.webp",
+    "alt": "Portillon métallique ajouré par des motifs organiques",
+    "ratio": "3 / 4",
+    "width": 1152,
+    "height": 1536,
+    "file": "architecture-portillon-organique",
+    "widths": [
+      480,
+      960
+    ],
+    "role": "PROJECT"
+  },
+  {
+    "id": "assemblage-chaine",
+    "title": "Assemblage en chaîne",
+    "category": "atelier",
+    "src": "/images/portfolio/atelier-assemblage-chaine.webp",
+    "alt": "Composition en chaîne et assemblages photographiés dans l’atelier",
+    "ratio": "9 / 16",
+    "width": 864,
+    "height": 1536,
+    "file": "atelier-assemblage-chaine",
+    "widths": [
+      480,
+      864
+    ],
+    "role": "PROCESS"
+  },
+  {
+    "id": "vador-peinture",
+    "title": "Dark Vador — mise en peinture",
+    "category": "creations",
+    "src": "/images/portfolio/creation-vador-peinture.webp",
+    "alt": "Mise en peinture noire d’une création métallique dans l’atelier",
+    "ratio": "9 / 16",
+    "position": "center 47%",
+    "width": 864,
+    "height": 1536,
+    "file": "creation-vador-peinture",
+    "widths": [
+      480,
+      864
+    ],
+    "role": "PROCESS"
+  },
+  {
+    "id": "limons-escalier",
+    "title": "Limons préparés en atelier",
+    "category": "architecture",
+    "src": "/images/portfolio/architecture-limons-escalier.webp",
+    "alt": "Limons d’escalier métalliques préparés dans l’atelier",
+    "ratio": "3 / 4",
+    "width": 1152,
+    "height": 1536,
+    "file": "architecture-limons-escalier",
+    "widths": [
+      480,
+      960
+    ],
+    "role": "PROCESS"
+  },
+  {
+    "id": "piece-decoupee",
+    "title": "Pièce découpée & assemblée",
+    "category": "atelier",
+    "src": "/images/portfolio/atelier-piece-decoupee.webp",
+    "alt": "Gros plan sur une pièce métallique découpée et assemblée",
+    "ratio": "16 / 9",
+    "width": 1536,
+    "height": 864,
+    "file": "atelier-piece-decoupee",
+    "widths": [
+      480,
+      960
+    ],
+    "role": "PROCESS"
+  },
+  {
+    "id": "colonne-decoupee",
+    "title": "Colonne découpée",
+    "category": "creations",
+    "src": "/images/portfolio/creation-colonne-decoupee.webp",
+    "alt": "Colonne métallique cylindrique avec silhouette découpée",
+    "ratio": "9 / 16",
+    "width": 864,
+    "height": 1536,
+    "file": "creation-colonne-decoupee",
+    "widths": [
+      480,
+      864
+    ],
+    "role": "PROJECT"
+  },
+  {
+    "id": "etude-garde-corps",
+    "title": "Étude de garde-corps",
+    "category": "architecture",
+    "src": "/images/portfolio/architecture-garde-corps-etude.webp",
+    "alt": "Étude visuelle d’un garde-corps noir à motifs",
+    "ratio": "3 / 2",
+    "width": 1536,
+    "height": 1024,
+    "file": "architecture-garde-corps-etude",
+    "widths": [
+      480,
+      960
+    ],
+    "role": "SUPPORT"
+  },
+  {
+    "id": "supports-pierre",
+    "title": "Supports dans la pierre",
+    "category": "architecture",
+    "src": "/images/portfolio/architecture-supports-mur-pierre.webp",
+    "alt": "Supports métalliques installés dans un mur en pierre",
+    "ratio": "3 / 4",
+    "width": 1152,
+    "height": 1536,
+    "file": "architecture-supports-mur-pierre",
+    "widths": [
+      480,
+      960
+    ],
+    "role": "PROJECT"
+  }
+]

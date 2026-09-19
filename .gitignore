@@ -44,3 +44,6 @@ next-env.d.ts
 /.codex/
 /outputs/
 /work/
+
+# Responsive media generated from the checked-in photo corpus
+/public/images/v2/

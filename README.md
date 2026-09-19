@@ -34,3 +34,13 @@ Chaque push sur `main` déclenche le workflow GitHub Pages. Le chemin public `/M
 - formulaire de contact visuel uniquement : l'envoi sera raccordé après validation des coordonnées définitives.
 
 Les coordonnées commerciales, mentions légales et informations pratiques doivent être confirmées avant une mise en production définitive.
+
+## V2 — L’idée prend matière
+
+Nouvelle proposition : https://enudimmud.github.io/METAL-ORGIE/v2/
+
+La V2 dispose d’une narration éditoriale, d’une galerie de 29 vues filtrables, de séries de fabrication, de favoris locaux et d’un carnet qui prépare un brief téléchargeable ou partageable. Aucun envoi de demande à l’atelier n’est simulé.
+
+Les images responsive sont générées automatiquement en AVIF et WebP à partir du corpus versionné, avant `next build`. Les originaux restent intacts. L’audit et les décisions sont dans `docs/V2_DIRECTION.md`.
+
+La V1 demeure à l’URL initiale pour comparaison. Les pages V2 sont marquées `noindex` pendant la validation. `v2-review.html` est un outil de contrôle des largeurs 320, 390 et 768 pixels.

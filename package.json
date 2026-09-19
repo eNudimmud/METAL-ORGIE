@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/prepare-v2-images.mjs && next build",
     "lint": "eslint . --ignore-pattern .next --ignore-pattern out"
   },
   "dependencies": {
