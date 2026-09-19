@@ -26,7 +26,7 @@
 .navCta .round { width: 38px; height: 38px; }
 .round { display: inline-flex; align-items: center; justify-content: center; border-radius: 50%; width: 48px; height: 48px; background: var(--orange); color: var(--ink); flex-shrink: 0; transition: transform .25s, background .25s; }
 a:hover .round,button:hover .round { transform: rotate(45deg); background: var(--chalk); }
-.menuButton { display: none; background: transparent; border: 1px solid var(--stroke); padding: 10px 12px; font-size: 12px; }
+.menuButton { display: none; background: transparent; border: 1px solid var(--stroke); padding: 10px 12px; font-size: 12px; white-space: nowrap; flex-shrink: 0; }
 .menuPanel { display: flex; flex-direction: column; gap: 22px; position: absolute; left: 0; top: 100%; width: 100%; background: var(--ink); padding: 28px var(--gutter); border-bottom: 1px solid var(--stroke); }
 .menuPanel a { font-size: 24px; }
 .hero { min-height: min(840px, calc(100svh - 92px)); padding: 42px var(--gutter) 30px; display: flex; flex-direction: column; position: relative; }
@@ -252,7 +252,7 @@ a:hover .round,button:hover .round { transform: rotate(45deg); background: var(-
   .contactIntro { gap: 5%; } .galleryGrid { grid-template-columns: repeat(2,minmax(0,1fr)); } .dialogCopy { padding: 24px; }
 }
 @media (max-width:700px) {
-  .nav { height: 76px; } .brand img { width: 42px; height: 42px; } .brand strong { font-size: 17px; } .brand small { font-size: 7px; }
+  .nav { height: 76px; gap: 14px; } .brand img { width: 42px; height: 42px; } .brand strong { font-size: 17px; } .brand small { font-size: 7px; }
   .navLinks,.navCta { display: none; } .menuButton { display: block; } .hero { min-height: 780px; padding-top: 27px; }
   .heroMeta .mono { font-size: 8px; letter-spacing: .07em; } .heroMeta>span:last-child { display: none; }
   .heroVisual { top: 158px; bottom: 176px; right: 0; width: 79%; } .heroVisual img { filter: brightness(.65); object-position: 59% center !important; }
@@ -287,5 +287,5 @@ a:hover .round,button:hover .round { transform: rotate(45deg); background: var(-
   .dialog { width: calc(100vw - 16px); height: calc(100svh - 16px); } .dialogTop { padding: 8px 14px; } .dialogTop .mono { font-size: 8px; }
   .dialogBody { display: flex; flex-direction: column; overflow-y: auto; } .dialogImage { flex-shrink: 0; height: 46svh; } .dialogCopy { overflow: visible; padding: 23px; gap: 16px; } .dialogCopy h2 { font-size: 31px; } .dialogCopy>p { font-size: 12px; } .dialogThumbs button { width: 48px; height: 53px; } .dialogActions { margin-top: 0; padding-top: 0; } .dialogActions .primary { padding: 13px 17px; }
 }
-@media (max-width:360px) { .hero { min-height: 745px; } .heroBottom { padding-top: 190px; } .heroCopy h1 { font-size: 14vw; } .materialChoices strong { font-size: 24px; } .galleryGrid .workCaption h3 { font-size: 17px; } }
+@media (max-width:360px) { .brand { gap: 8px; } .brand img { width: 34px; height: 34px; } .brand strong { font-size: 15px; } .hero { min-height: 745px; } .heroBottom { padding-top: 190px; } .heroCopy h1 { font-size: 14vw; } .materialChoices strong { font-size: 24px; } .galleryGrid .workCaption h3 { font-size: 17px; } }
 @media (prefers-reduced-motion:reduce) { .root *,.root *::after,.root *::before,.dialog { animation: none !important; transition: none !important; scroll-behavior: auto !important; } .reveal { transform: none; opacity: 1; } }

@@ -155,7 +155,15 @@ export function Experience({ galleryOnly = false }: { galleryOnly?: boolean }) {
   const [chosenFilter, setFilter] = useState<string | null>(null);
   const filter = chosenFilter ?? requestedCategory;
   const [contactVisible, setContactVisible] = useState(false);
+  const [heroVisible, setHeroVisible] = useState(!galleryOnly);
+  const hero = useRef<HTMLElement>(null);
   const contact = useRef<HTMLElement>(null);
+  useEffect(() => {
+    if (!hero.current) return;
+    const observer = new IntersectionObserver(([entry]) => setHeroVisible(entry.isIntersecting));
+    observer.observe(hero.current);
+    return () => observer.disconnect();
+  }, []);
   useEffect(() => {
     const observer = new IntersectionObserver(([entry]) => setContactVisible(entry.isIntersecting), { threshold: .08 });
     if (contact.current) observer.observe(contact.current);
@@ -181,7 +189,7 @@ export function Experience({ galleryOnly = false }: { galleryOnly?: boolean }) {
         <section className={`${s.galleryArea} ${s.light}`} aria-label="Galerie de réalisations"><div className={s.filters} role="group" aria-label="Filtrer les réalisations">{categories.map(c=><button key={c.id} aria-pressed={filter===c.id} onClick={()=>setFilter(c.id)}>{c.short}</button>)}<button aria-pressed={filter==='saved'} onClick={()=>setFilter('saved')}>Mon carnet ({saved.length})</button></div><div className={`${s.galleryCount} ${s.mono}`}><span aria-live="polite">{visible.length.toString().padStart(2,'0')} vue{visible.length!==1?'s':''}</span><span>Le + garde une inspiration</span></div>{visible.length ? <div className={s.galleryGrid}>{visible.map(photo=><Work compact key={photo.id} photo={photo} saved={saved.includes(photo.id)} open={open} toggle={toggle} />)}</div> : <p>Votre carnet est encore ouvert à toutes les idées. Ajoutez une réalisation avec le bouton +.</p>}</section>
         <section className={s.galleryCta}><h2>Et la prochaine idée,<br />c’est la vôtre ?</h2><a className={s.primary} href={HOME + '#projet'}>Parler de votre projet <Arrow /></a></section>
       </> : <>
-        <section className={s.hero} aria-labelledby="hero-v2-title">
+        <section className={s.hero} aria-labelledby="hero-v2-title" ref={hero}>
           <div className={s.heroMeta}><span className={s.mono}><i className={s.dot} /> Atelier de construction métallique · Suisse</span><span className={s.mono}>Guillaume Rossier / Sur mesure</span></div>
           <figure className={s.heroVisual}><Picture id="finition-angle" priority sizes="(max-width: 700px) 85vw, 58vw" /><span className={s.heroCross}><Plus /></span><figcaption className={s.mono}>La précision, jusque dans l’angle.<br />Détail d’atelier — Métal’Orgie</figcaption></figure>
           <div className={s.heroCopy}><h1 id="hero-v2-title"><span>L’IDÉE</span><span>PREND</span><span>MATIÈRE.</span></h1></div>
@@ -218,7 +226,7 @@ export function Experience({ galleryOnly = false }: { galleryOnly?: boolean }) {
         </section>
       </>}
     </main><Footer />
-    <a className={s.carnet} href={HOME + '#projet'} hidden={contactVisible}><span>{saved.length ? 'Mon carnet de projet' : 'Votre projet commence ici'}</span>{saved.length ? <b>{saved.length}</b> : <Arrow />}</a>
+    <a className={s.carnet} href={HOME + '#projet'} hidden={contactVisible || heroVisible}><span>{saved.length ? 'Mon carnet de projet' : 'Votre projet commence ici'}</span>{saved.length ? <b>{saved.length}</b> : <Arrow />}</a>
     {toast && <div className={s.toast} role="status">{toast}</div>}
     <ProjectDialog photo={active} saved={saved} toggle={toggle} close={()=>setActive(null)} />
   </div>;
